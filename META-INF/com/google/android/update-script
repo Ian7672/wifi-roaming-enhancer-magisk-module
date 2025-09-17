@@ -1,0 +1,3 @@
+ui_print("Installing WiFi Roaming Enhancer Ultimate...");
+run_program("/sbin/busybox", "cp", "-af", "$MODPATH/*", "/data/adb/modules/wifi-roaming-enhancer/");
+ui_print("Installation complete!");
